@@ -1,9 +1,9 @@
 {
-  "source_commit": "2d49b9b307fcb151799b2ffba0a7d7c274b51ad8",
-  "built_utc": "2026-10-11T09:10:18.6382059Z",
+  "source_commit": "94f9d33261281c857b57857227013d6076758b06",
+  "built_utc": "2026-10-13T10:09:29Z",
   "generated_sprite_count": 88,
   "original_asset_names": 312,
-  "pack_sha256": "d676b587900d65fc27fd5264739af66e13242b9e19df1d3a54986a3cf7f0c646",
-  "pack_bytes": 9856768,
+  "pack_sha256": "4ece9bc01a52e0b272fd7b4bd5cbe8082bd9e76d8ea1e1d447e75f2e21dfa50f",
+  "pack_bytes": 9867056,
   "encrypted": true
 }
