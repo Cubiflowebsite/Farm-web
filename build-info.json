@@ -1,9 +1,9 @@
 {
   "source_commit": "968fd34f6a207f674954b877fab0c574e9a99114",
   "built_utc": "2026-10-16T19:47:34Z",
-  "generated_sprite_count": 0,
-  "original_asset_names": 88,
+  "generated_sprite_count": 88,
   "pack_sha256": "42476848dc36cb8e796e6c7c359b9491d0fa869406fac8b86af9c2daa9cdea19",
   "pack_bytes": 4416272,
-  "encrypted": true
+  "encrypted": true,
+  "png_count": 361
 }
