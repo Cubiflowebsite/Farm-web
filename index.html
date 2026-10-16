@@ -199,7 +199,7 @@ const TB = { pack: null, fetch: window.fetch.bind(window) };
 <script src="index.js"></script>
 <script>
 (function () {
-	const GODOT_CONFIG = {"args": [], "canvasResizePolicy": 0, "emscriptenPoolSize": 8, "ensureCrossOriginIsolationHeaders": true, "executable": "index", "experimentalVK": false, "fileSizes": {"index.wasm": 39514754, "index-pck.wasm": 12500008}, "focusCanvas": true, "gdextensionLibs": [], "godotPoolSize": 4, "serviceWorker": "", "mainPack": "index-pck.wasm"};
+	const GODOT_CONFIG = {"args": [], "canvasResizePolicy": 0, "emscriptenPoolSize": 8, "ensureCrossOriginIsolationHeaders": true, "executable": "index", "experimentalVK": false, "fileSizes": {"index.wasm": 39514754, "index-pck.wasm": 4416252}, "focusCanvas": true, "gdextensionLibs": [], "godotPoolSize": 4, "serviceWorker": "", "mainPack": "index-pck.wasm"};
 	// {"iter": PBKDF2 rounds} when the game pack is encrypted (PLAY_PASS), else null
 	const LOCK = {"iter": 150000};
 	const PASS_KEY = 'timberbrook-pass';
@@ -224,6 +224,12 @@ const TB = { pack: null, fetch: window.fetch.bind(window) };
 	}
 
 	function start() {
+		// local test builds only (no password): ?args=--probe%20--fresh passes game arguments
+		// (tests/web); the published, locked page ignores them
+		const extra = LOCK ? null : new URLSearchParams(location.search).get('args');
+		if (extra) {
+			GODOT_CONFIG.args = ['--'].concat(extra.split(' ').filter(Boolean));
+		}
 		const engine = new Engine(GODOT_CONFIG);
 		engine.startGame({
 			onProgress: function (current, total) {
