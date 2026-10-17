@@ -1,10 +1,11 @@
 {
-  "source_commit": "74f66189a146c47deb35f3d065338b143d71d413",
-  "built_utc": "2026-10-17T05:16:08Z",
+  "source_commit": "0211fcc220ddab67cce6001715c03e9e1592829e",
+  "built_utc": "2026-10-17T05:29:36Z",
   "generated_sprite_count": 88,
   "png_count": 361,
-  "pack_sha256": "de2d01ddadcb785cff3f159534c1f8bbcabd7dc6a9f1000a1367df152e2909bc",
-  "pack_bytes": 4615888,
+  "pack_sha256": "a90a1f68e3b812cd73c68d79930113a5a766584fd5ec8ef11f35afdae86c62fc",
+  "pack_bytes": 4616624,
   "encrypted": true,
-  "rewarded_wait_ads": "simulated"
+  "rewarded_wait_ads": "simulated",
+  "rewarded_wait_skip_max_s": 7200
 }
