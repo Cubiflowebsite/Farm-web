@@ -1,9 +1,9 @@
 {
-  "source_commit": "3812034b5c58340346a149ed06a5800b5f20b556",
-  "built_utc": "2026-10-16T20:10:57Z",
+  "source_commit": "f5c00d50263ebf2e2d52938fc3ffb7f561205270",
+  "built_utc": "2026-10-17T01:50:50Z",
   "generated_sprite_count": 88,
   "png_count": 361,
-  "pack_sha256": "19241743944392bcf20e5a71dc627b9a434d614eb578cd42aa39b4a49879a4e6",
-  "pack_bytes": 4416704,
+  "pack_sha256": "4e8e548fed8b9a2eab85fb5f8ab24bba229db7e25bb9989410bfb3f5e1388f5e",
+  "pack_bytes": 4400784,
   "encrypted": true
 }
