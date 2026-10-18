@@ -1,19 +1,24 @@
 {
-  "source_commit": "06f3aa5c10edff7680abd859f39bc62b833e7409",
-  "built_utc": "2026-10-17T15:15:11Z",
+  "source_commit": "2744239c40a5f4a3a8446f2aea915e8692efdb1d",
+  "built_utc": "2026-10-18T05:26:52.488774+00:00",
   "generated_sprite_count": 88,
-  "png_count": 361,
-  "pack_sha256": "baec93be827a8b9c29ef7bc058cef7f7267aa5fa1e9693872fa0b4ca8fd8f228",
-  "pack_bytes": 5292464,
+  "png_count": 364,
+  "pack_sha256": "62075ec7e5bf455037fbc3060eb9b8ea5e739b0eddb538c831b873ec0fc5430c",
+  "pack_bytes": 7159824,
   "encrypted": true,
   "rewarded_wait_ads": "simulated",
   "rewarded_wait_skip_max_s": 7200,
-  "art_revision": "hd-v3-2026-10-17",
-  "native_sprite_density": 2,
+  "art_revision": "polish-v4-2026-10-18",
   "native_character_frame": [
-    72,
-    96
+    144.0,
+    192.0
   ],
-  "visible_art_pngs_updated": 360,
-  "web_canvas_max_dpr": 3
+  "native_character_frames": 48.0,
+  "native_character_density": 4.0,
+  "web_canvas_max_dpr": 3,
+  "tasks_automatic": true,
+  "tutorial_lessons": 10,
+  "tutorial_ads": false,
+  "tutorial_waits": false,
+  "browser_touch_checks": 52
 }
