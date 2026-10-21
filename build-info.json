@@ -1,15 +1,15 @@
 {
-  "source_commit": "c9bc574b2124a70eb8f032cd9b84a3650fe08fac",
-  "source_tree": "ede021c283989dabb61a1c04402a9e99dbf5eb78",
-  "source_base_commit": "c9bc574b2124a70eb8f032cd9b84a3650fe08fac",
+  "source_commit": "fb2b8569573d5f3d47a7736abaaffa76b7205d31",
+  "source_tree": "30c3341fe60279a085b31cd0c69cc9dfdada7cbf",
+  "source_base_commit": "fb2b8569573d5f3d47a7736abaaffa76b7205d31",
   "source_commit_published": true,
-  "built_utc": "2026-10-21T15:37:48Z",
+  "built_utc": "2026-10-21T17:18:33Z",
   "generated_sprite_count": 88,
   "png_count": 364,
-  "export_plain_sha256": "f5eadaa0e927811649ce4ff33b42c90df619465648395357fc17793e939507fe",
-  "export_plain_bytes": 37306348,
-  "pack_sha256": "4ea6ddf2369992845d7ce31bbc66c8c3bffad1795f226a5ae84a33825f51fff3",
-  "pack_bytes": 37306368,
+  "export_plain_sha256": "c122c9c371416ed9eaff80767df472b355058530dda49ba09d98a2c5a514b093",
+  "export_plain_bytes": 37312588,
+  "pack_sha256": "79ce6d069c5c24a1728e3940a77f80f10aee35c543669760a59daa2539fd533d",
+  "pack_bytes": 37312608,
   "encrypted": true,
   "password_preserved": true,
   "rewarded_wait_ads": "simulated",
@@ -30,22 +30,17 @@
   "tutorial_ads": false,
   "tutorial_waits": false,
   "qa": {
-    "unit_tests": 305,
+    "unit_tests": 307,
     "unit_failures": 0,
     "headless_smoke": "passed",
-    "ui_design_screens_en_vi": 22,
-    "ui_design_failures": 0,
-    "playthrough_input": "passed",
-    "verify_storybook_failures": 0,
-    "mobile_touch_dpr1": "passed (55 checks)",
-    "mobile_touch_dpr3": "render checks passed; tutorial walkthrough over its 120 s budget under SwiftShader (11-14 fps, same on the build before P3-24)",
-    "browser_console_errors": null,
+    "playthrough_input": "passed (852x393 vi, 1280x720 en; 74 checks each)",
+    "mobile_touch_dpr1": "passed (67 checks)",
+    "locked_build_browser": "wrong password refused; play password starts a new game; 0 page errors",
     "actual_ios_device_test": false
   },
   "roadmap": [
-    "P3-22 donkey cart",
-    "P3-24 close-up scene detail",
-    "P3-25 buildings at 4x"
+    "B56 tutorial pacing (outside roadmap)"
   ],
-  "native_building_density": 4
+  "native_building_density": 4,
+  "tutorial_pacing": "well-done card waits for Next after each action lesson; teaching shed takes 3 taps (B56)"
 }
