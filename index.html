@@ -130,7 +130,7 @@ body {
 <script>
 // `pack`: the unlocked game pack of a locked build (set by the password gate below);
 // `fetch`: the browser's own fetch.
-const releaseVersion = "da7f2c6f05b73893";
+const releaseVersion = "efbe4732358ac8f0";
 const originalFetch = window.fetch.bind(window);
 const TB = { pack: null, fetch: function (input, init) {
 	const url = new URL(input instanceof Request ? input.url : String(input), location.href);
@@ -207,10 +207,10 @@ const TB = { pack: null, fetch: function (input, init) {
 	window.addEventListener('orientationchange', () => setTimeout(fit, 250));
 }());
 </script>
-<script src="index.js?v=da7f2c6f05b73893"></script>
+<script src="index.js?v=efbe4732358ac8f0"></script>
 <script>
 (function () {
-	const GODOT_CONFIG = {"args": [], "canvasResizePolicy": 0, "emscriptenPoolSize": 8, "ensureCrossOriginIsolationHeaders": true, "executable": "index", "experimentalVK": false, "fileSizes": {"index.wasm": 39514754, "index-pck.wasm": 39590100}, "focusCanvas": true, "gdextensionLibs": [], "godotPoolSize": 4, "serviceWorker": "", "mainPack": "index-pck.wasm"};
+	const GODOT_CONFIG = {"args": [], "canvasResizePolicy": 0, "emscriptenPoolSize": 8, "ensureCrossOriginIsolationHeaders": true, "executable": "index", "experimentalVK": false, "fileSizes": {"index.wasm": 39514754, "index-pck.wasm": 39591732}, "focusCanvas": true, "gdextensionLibs": [], "godotPoolSize": 4, "serviceWorker": "", "mainPack": "index-pck.wasm"};
 	// {"iter": PBKDF2 rounds} when the game pack is encrypted (PLAY_PASS), else null
 	const LOCK = {"iter": 150000};
 	const PASS_KEY = 'timberbrook-pass';
